@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IP Tracer</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+<div class="main">
+    <h1>IP Tracer</h1>
+    <div class="input-section">
+        <input type="text" id="ip-input" placeholder="Enter IP address or domain name">
+        <button id="trace-button">Trace IP</button>
+    </div>
+
+    <div class="table-wrapper">
+        <table id="ip-table" class="hidden">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>IP Address</td>
+                <td id="ip-field"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td id="city-field"></td>
+            </tr>
+            <tr>
+                <td>Region</td>
+                <td id="region-field"></td>
+            </tr>
+            <tr>
+                <td>Region Code</td>
+                <td id="region-code-field"></td>
+            </tr>
+            <tr>
+                <td>Country Name</td>
+                <td id="country-field"></td>
+            </tr>
+            <tr>
+                <td>Country Code</td>
+                <td id="country-code-field"></td>
+            </tr>
+            <tr>
+                <td>Country Capital</td>
+                <td id="country-capital-field"></td>
+            </tr>
+            <tr>
+                <td>Postal Code</td>
+                <td id="postal-field"></td>
+            </tr>
+            <tr>
+                <td>Latitude, Longitude</td>
+                <td id="coords-field"></td>
+            </tr>
+            <tr>
+                <td>Timezone</td>
+                <td id="timezone-field"></td>
+            </tr>
+            <tr>
+                <td>UTC Offset</td>
+                <td id="utc-offset-field"></td>
+            </tr>
+            <tr>
+                <td>Organization</td>
+                <td id="org-field"></td>
+            </tr>
+            <tr>
+                <td>ASN</td>
+                <td id="asn-field"></td>
+            </tr>
+            <tr>
+                <td>Currency</td>
+                <td id="currency-field"></td>
+            </tr>
+            <tr>
+                <td>Currency Name</td>
+                <td id="currency-name-field"></td>
+            </tr>
+            <tr>
+                <td>Country Calling Code</td>
+                <td id="country-calling-code-field"></td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td id="languages-field"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script src="./scripts/main.js"></script>
+</body>
+</html>
